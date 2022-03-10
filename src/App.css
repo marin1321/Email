@@ -1,0 +1,86 @@
+.ron{
+  width: 25rem;
+  height: 30rem;
+  border-radius: 15px;
+}
+
+.ron:hover{
+  filter: contrast(1.3);
+}
+
+
+.body{
+  width: 100vw;
+  height: 100vh;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btns{
+  width: 6rem;
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.header{
+  margin: 1rem 0 4rem 0;
+}
+
+.footer{
+  margin: 4rem 0 1rem 0;
+}
+
+.form{
+  background-color: #ffff;
+  padding: 2rem 1rem ;
+  width: 30rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.labelForm{
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.Enviar{
+  margin-top: 1rem;
+  width: 7rem;
+  height: 2rem;
+  background-color: rgb(225, 248, 248);
+  border-radius: 10px;
+}
+
+.boxnumber{
+  display: flex;
+  justify-content: center;
+}
+
+.number{
+  font-size: xx-large;
+  font-style: oblique;
+  font-weight: 500;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+.normal{
+  filter: contrast(1);
+}
+
+.cambio{
+  filter: grayscale(0.5);
+
+}
+
+.footerCount{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
